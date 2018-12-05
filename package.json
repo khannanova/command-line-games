@@ -1,8 +1,12 @@
 {
   "name": "brain-games-khannanova",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Comand line brane games",
-  "keywords": ["game", "command line game", "brain games"],
+  "keywords": [
+    "game",
+    "command line game",
+    "brain games"
+  ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
