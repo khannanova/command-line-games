@@ -1,0 +1,22 @@
+{
+  "name": "brain-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "./src/bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khannanova/project-lvl1-s388.git"
+  },
+  "author": "Svetlana Khannanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khannanova/project-lvl1-s388/issues"
+  },
+  "homepage": "https://github.com/khannanova/project-lvl1-s388#readme"
+}
