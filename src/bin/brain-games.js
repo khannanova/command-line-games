@@ -1,3 +1,4 @@
 #!/usr/bin/env node
+import message from '..';
 
-console.log("Welcome to the Brain Games!");
+message();
