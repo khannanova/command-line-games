@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/khannanova/project-lvl1-s388/issues"
   },
-  "homepage": "https://github.com/khannanova/project-lvl1-s388#readme"
+  "homepage": "https://github.com/khannanova/project-lvl1-s388#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/cli": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  }
 }
