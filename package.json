@@ -1,8 +1,8 @@
 {
   "name": "brain-games-khannanova",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Comand line brane games",
+  "keywords": ["game", "command line game", "brain games"],
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
@@ -29,5 +29,8 @@
     "@babel/core": "^7.2.0",
     "@babel/node": "^7.2.0",
     "@babel/preset-env": "^7.2.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   }
 }
