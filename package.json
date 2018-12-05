@@ -4,10 +4,15 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "brain-games": "./src/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,9 +25,9 @@
   },
   "homepage": "https://github.com/khannanova/project-lvl1-s388#readme",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/cli": "^7.1.2",
-    "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.0"
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0"
   }
 }
