@@ -19,10 +19,10 @@ const brainEven = () => {
         count += 1;
         console.log('Correct!');
       } else if (randomNumber % 2 === 0 && userAnswer !== 'yes') {
-        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'yes.'\n Let's try again, ${userName}!`);
+        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'yes'.\n Let's try again, ${userName}!`);
         return;
       } else if (randomNumber % 2 !== 0 && userAnswer !== 'no') {
-        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no.'\n Let's try again, ${userName}!`);
+        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'.\n Let's try again, ${userName}!`);
         return;
       }
     }
