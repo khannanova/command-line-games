@@ -1,7 +1,7 @@
 {
   "name": "brain-games-khannanova",
   "version": "1.4.0",
-  "description": "Comand line brane games",
+  "description": "Comand line brain games",
   "keywords": [
     "game",
     "command line game",
@@ -10,7 +10,8 @@
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
-    "brain-calc": "dist/bin/brain-calc.js"
+    "brain-calc": "dist/bin/brain-calc.js",
+    "brain-gcd": "dist/bin/brain-gcd.js"
   },
   "files": [
     "dist"
