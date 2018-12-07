@@ -47,6 +47,7 @@ const brainCalc = () => {
     }
     console.log('Correct!');
   }
+  console.log(`Congratulations, ${userName}!`);
 };
 
 export default brainCalc;
