@@ -8,3 +8,6 @@
 
 ## Calculator Game
 [![asciicast](https://asciinema.org/a/igtlGMmQU9nEtJfe0GxpB1NpL.svg)](https://asciinema.org/a/igtlGMmQU9nEtJfe0GxpB1NpL)
+
+## Greatest Common Divisor Game
+[![asciicast](https://asciinema.org/a/j6RsvH5VZHUKHNZlvfQ31LYmZ.svg)](https://asciinema.org/a/j6RsvH5VZHUKHNZlvfQ31LYmZ)
