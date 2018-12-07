@@ -1,6 +1,6 @@
 import engine, { getRandomNumber } from '..';
 
-const brainCalc = () => {
+export default () => {
   const description = 'What is the result of the expression?';
   const getRandomOperator = () => {
     const operators = '+-*';
@@ -26,5 +26,3 @@ const brainCalc = () => {
   };
   engine(description, getQuestion, getRightAnswer);
 };
-
-export default brainCalc;
