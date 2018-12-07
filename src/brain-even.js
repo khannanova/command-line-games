@@ -1,34 +1,34 @@
 import readlineSync from 'readline-sync';
 
+const getRandomNumber = max => Math.floor(Math.random() * Math.floor(max));
+
 const brainEven = () => {
-  console.log('Welcome to the Brain Games!\nAnswer "yes" if number even otherwise answer "no".');
+  const greetings = 'Welcome to the Brain Games!';
+  const gameRules = 'Answer "yes" if number even otherwise answer "no".';
+
+  console.log(greetings);
+  console.log(gameRules);
   console.log('');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log('');
 
-  const getRandomNumber = max => Math.floor(Math.random() * Math.floor(max));
-
   const game = () => {
-    let count = 0;
-    while (count < 3) {
-      const randomNumber = getRandomNumber(1000);
-      console.log(`Question: ${randomNumber}`);
+    const isEven = number => number % 2 === 0;
+    const maxRounds = 3;
+    for (let i = 0; i < maxRounds; i += 1) {
+      const question = getRandomNumber(1000);
+      console.log(`Question: ${question}`);
       const userAnswer = readlineSync.question('Your answer: ');
-      if ((randomNumber % 2 === 0 && userAnswer === 'yes') || (randomNumber % 2 !== 0 && userAnswer === 'no')) {
-        count += 1;
-        console.log('Correct!');
-      } else if (randomNumber % 2 === 0 && userAnswer !== 'yes') {
-        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'yes'.\n Let's try again, ${userName}!`);
-        return;
-      } else if (randomNumber % 2 !== 0 && userAnswer !== 'no') {
-        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was 'no'.\n Let's try again, ${userName}!`);
+      const rightAnswer = isEven(question) ? 'yes' : 'no';
+      if (userAnswer !== rightAnswer) {
+        console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\n Let's try again, ${userName}!`);
         return;
       }
+      console.log('Correct!');
     }
     console.log(`Congratulations, ${userName}!`);
   };
-
   game();
 };
 
