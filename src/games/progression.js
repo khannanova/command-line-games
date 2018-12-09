@@ -6,15 +6,17 @@ const numberOfElements = 10;
 const getGameData = () => {
   const start = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 10);
-  const progression = [start];
-  for (let i = 1; i <= numberOfElements; i += 1) {
+  const progression = [];
+  for (let i = 0; i < numberOfElements; i += 1) {
     progression.push(start + i * step);
   }
-  const index = getRandomNumber(0, numberOfElements - 1);
-  const answer = String(progression[index]);
-  const question = [...progression.slice(0, index), '..', ...progression.slice(index + 1)].join(
-    ' ',
-  );
+  const hiddenElementPosition = getRandomNumber(0, numberOfElements - 1);
+  const answer = String(progression[hiddenElementPosition]);
+  const question = [
+    ...progression.slice(0, hiddenElementPosition),
+    '..',
+    ...progression.slice(hiddenElementPosition + 1),
+  ].join(' ');
   return { answer, question };
 };
 
