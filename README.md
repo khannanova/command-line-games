@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/be7cd08ea722ba77b041/maintainability)](https://codeclimate.com/github/khannanova/project-lvl1-s388/maintainability)
 [![Build Status](https://travis-ci.org/khannanova/project-lvl1-s388.svg?branch=master)](https://travis-ci.org/khannanova/project-lvl1-s388)
 
-## Even Game
+## Even Number Game
 [![asciicast](https://asciinema.org/a/y6gkjeLGTBjZ5NrpTWhnvisbg.svg)](https://asciinema.org/a/y6gkjeLGTBjZ5NrpTWhnvisbg)
 
 ## Calculator Game
@@ -14,3 +14,6 @@
 
 ## Arithmetic Progressions Game
 [![asciicast](https://asciinema.org/a/idiQVKzZEGmZX7Yw6YMOq02cE.svg)](https://asciinema.org/a/idiQVKzZEGmZX7Yw6YMOq02cE)
+
+## Prime Number Game
+[![asciicast](https://asciinema.org/a/8dt0uEE5L4aoCWVs3esvlSDPc.svg)](https://asciinema.org/a/8dt0uEE5L4aoCWVs3esvlSDPc)
