@@ -1,6 +1,6 @@
 # Comand line games
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/be7cd08ea722ba77b041/maintainability)](https://codeclimate.com/github/khannanova/project-lvl1-s388/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/50c245b360c2465a44aa/maintainability)](https://codeclimate.com/github/khannanova/command-line-games/maintainability)
 [![Build Status](https://travis-ci.org/khannanova/command-line-games.svg?branch=master)](https://travis-ci.org/khannanovacommand-line-games)
 
 ## Install
